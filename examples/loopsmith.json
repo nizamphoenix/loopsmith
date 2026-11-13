@@ -1,0 +1,8 @@
+{
+  "builder": { "kind": "claude", "command": "claude" },
+  "reviewer": { "kind": "codex", "command": "codex" },
+  "checks": [["go", "test", "./..."]],
+  "max_rounds": 3,
+  "command_timeout": "20m",
+  "run_timeout": "2h"
+}
