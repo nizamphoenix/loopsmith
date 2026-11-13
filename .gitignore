@@ -1,0 +1,4 @@
+/bin/
+/loopsmith
+/loopsmith.json
+*.test
